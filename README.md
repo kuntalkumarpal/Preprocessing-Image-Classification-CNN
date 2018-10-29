@@ -39,3 +39,4 @@ The Implementation of the Paper [Preprocessing for image classification by convo
 * The architectures were manually written to gather better understanding of neural networks. The architectures are influenced from the [excellent tutorials of Michael Nielsen](http://neuralnetworksanddeeplearning.com/)
 * No separate training, validations and testing modules all are done sequentially together in same function
 * The naming of the files are inconsistent.
+* The preprocessing techniques do no involve any theano code. They are written in simple python 2.7. But needs to be loaded using Theano.
